@@ -14,30 +14,7 @@ Optical Character Recognition for Manchu script using multiple model architectur
 uv sync
 ```
 
-## Quick Start (For Llama-3.2-11B)
-
-### 1. Download Data
-
-```bash
-python scripts/download_data.py
-```
-
-
-### 2. Train Llama-3.2-11B Models
-
-```bash
-python scripts/finetune_llama32_11b.py
-```
-
-Trains VLM and CRNN models on Manchu OCR datasets.
-
-### 3. Evaluate Llama-3.2-11B Models
-
-```bash
-python scripts/infer_llama32_11b.py
-```
-
-## Quick Start (For All Models)
+## Quick Start
 
 The `scripts/` folder contains the main entry points:
 
